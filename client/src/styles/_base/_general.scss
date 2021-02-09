@@ -8,24 +8,15 @@ html {
 }
 body {
     font-family: $font_base_family;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    margin-bottom: 1rem;
+    background-color: $bg_color;
+    color: white;
 }
 
 a {
     text-decoration: none;
     color: $blue;
-    border-bottom: 1px solid $dark_blue;
     &:hover {
         color: $dark_blue;
-        border-bottom: 1px solid $dark_blue;
     }
 }
 
